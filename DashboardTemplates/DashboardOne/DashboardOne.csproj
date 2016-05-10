@@ -134,8 +134,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\dashboard\views\content.html" />
     <Content Include="app\dashboard\main.js" />
+    <Content Include="app\dashboard\views\navbar\footer.html" />
     <Content Include="app\dashboard\views\navbar\header.html" />
+    <Content Include="app\dashboard\views\navbar\leftmenu.html" />
     <Content Include="Content\libs\boostrap\css\bootstrap.css" />
     <Content Include="Content\libs\boostrap\css\bootstrap.min.css" />
     <Content Include="Content\libs\boostrap\fonts\glyphicons-halflings-regular.svg" />

@@ -2,7 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>@ViewBag.Title</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -18,7 +19,7 @@
     <link rel="stylesheet" href="~/Content/Site.css">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="~/Content/skins/_all-skins.min.css">
+    <link href="~/Content/skins/_all-skins.min.css" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,41 +28,42 @@
     <![endif]-->
 
 </head>
-<body>
+<body class="hold-transition skin-blue sidebar-mini">
     @RenderBody()
-    
+
     <!-- Le javascript
             ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <!--Todo: These script should be bundled -->
     <!--Common script-->
-    <script src="~/Scripts/libs/jquery/jquery-2.1.1.min.js"></script>
-    <script src="~/Scripts/libs/bootstrap/bootstrap.min.js"></script>
+    <script src="/Scripts/libs/jquery/jquery-2.1.1.min.js"></script>
+    <script src="/Scripts/libs/bootstrap/bootstrap.min.js"></script>
 
     <!-- angular js libs -->
-    <script src="~/Scripts/libs/angularjs/angular.min.js"></script>
-    <script src="~/Scripts/libs/angularjs/angular-route.min.js"></script>
-    <script src="~/Scripts/libs/angularjs/ui-bootstrap-tpls-0.12.1.min.js"></script>
+    <script src="/Scripts/libs/angularjs/angular.min.js"></script>
+    <script src="/Scripts/libs/angularjs/ui-bootstrap-0.12.1.min.js"></script>
+    <script src="/Scripts/libs/angularjs/angular-route.min.js"></script>
+    <script src="/Scripts/libs/angularjs/ui-bootstrap-tpls-0.12.1.min.js"></script>
 
     <!--drag-drop-list-->
     <script src="~/Scripts/libs/angularjs/angular-drag-and-drop-lists.min.js"></script>
-    
+
     <!-- App scripts -->
-    <script src="~/app/app.js"></script>
-    <script src="~/app/dashboard/main.js"></script>
+    <script src="/app/app.js"></script>
+    <script src="/app/dashboard/main.js"></script>
     <!-- Common -->
     <!-- Directives -->
     <!-- Application Controllers -->
     <!--Services-->
-
     @RenderSection("scripts", required: false)
     <!--Helpers and Common scripts-->
-    <script src="~/Scripts/common/helper.js"></script>
-    <script src="~/Scripts/common/httpStatusCode.js"></script>
+    <script src="/Scripts/common/helper.js"></script>
+    <script src="/Scripts/common/httpStatusCode.js"></script>
     <script type="text/javascript" language="javascript">
-            //$("#preloader").delay(1250).fadeOut(500);
-            Helpers.rootUrl = "@Url.Content("~/")";
-            //Helpers.userName = "@User.Identity.Name";
+        //$("#preloader").delay(1250).fadeOut(500);
+        Helpers.rootUrl = "@Url.Content("~/")";
+        //Helpers.userName = "@User.Identity.Name";
     </script>
 </body>
+
 </html>
