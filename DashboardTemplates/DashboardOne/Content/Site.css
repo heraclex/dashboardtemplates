@@ -1,5 +1,29 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
 
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: slategray;
+}
+
+::-webkit-scrollbar-track {
+  background: #b8c0c8;
+}
+
+/*body {
+  scrollbar-face-color: slategray;
+  scrollbar-track-color: #b8c0c8;
+}
+
+body {
+  height: 3000px;
+  width: 3000px;
+}*/
+
 html,
 body {
   min-height: 100%;
@@ -9,6 +33,9 @@ body {
   height: 100%;
 }
 body {
+    
+    scrollbar-face-color: slategray;
+    scrollbar-track-color: #b8c0c8;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
