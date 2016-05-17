@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\dashboard\controllers\navbar\leftmenuController.js" />
     <Content Include="app\dashboard\views\content.html" />
     <Content Include="app\dashboard\main.js" />
     <Content Include="app\dashboard\views\navbar\footer.html" />

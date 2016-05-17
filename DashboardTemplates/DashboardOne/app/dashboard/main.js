@@ -18,8 +18,7 @@
         //$httpProvider.interceptors.push('AppInterceptor');
     });
 
-    //spa.dashboardApp.run(function (stConfig, editableOptions) {
-    //    //stConfig.pagination.template = Helpers.rootUrl + 'app/admin/views/_common/custom-pagination-tmpl.html';
-    //    //editableOptions.theme = 'bs3'; // bootstrap3 theme. Can be also 'bs2', 'default'
-    //});
+    spa.dashboardApp.run(function () {
+        
+    });
 }());
