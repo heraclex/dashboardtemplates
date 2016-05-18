@@ -28,7 +28,7 @@
     <![endif]-->
 
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="skin-blue sidebar-mini">
     @RenderBody()
 
     <!-- Le javascript
@@ -52,8 +52,14 @@
     <script src="/app/app.js"></script>
     <script src="/app/dashboard/main.js"></script>
     <!-- Common -->
+    <script src="/Scripts/common/helper.js"></script>
+    <script src="/Scripts/common/appConfig.js"></script>
+    <script src="/Scripts/common/httpStatusCode.js"></script>
     <!-- Directives -->
     <!-- Application Controllers -->
+    <script src="/app/dashboard/controllers/navbar/headerController.js"></script>
+    <script src="/app/dashboard/controllers/navbar/leftmenuController.js"></script>
+    
     <!--Services-->
     @RenderSection("scripts", required: false)
     <!--Helpers and Common scripts-->

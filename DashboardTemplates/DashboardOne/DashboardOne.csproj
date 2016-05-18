@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\dashboard\controllers\navbar\headerController.js" />
     <Content Include="app\dashboard\controllers\navbar\leftmenuController.js" />
     <Content Include="app\dashboard\views\content.html" />
     <Content Include="app\dashboard\main.js" />
@@ -229,6 +230,7 @@
     <Content Include="Content\libs\boostrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\libs\boostrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\libs\boostrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Scripts\common\appConfig.js" />
     <Content Include="Scripts\common\helper.js" />
     <Content Include="Scripts\common\httpStatusCode.js" />
     <Content Include="Scripts\libs\angularjs\angular-drag-and-drop-lists.min.js" />
