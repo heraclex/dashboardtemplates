@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<base href="@Url.Content("~/Home")" target="_blank">
+
+<div class="wrapper" ng-app="dashboardApp">
+    <!-- Header -->
+    <div ng-include="'@Url.Content("~/")app/dashboard/views/navbar/header.html'"></div>
+    
+    <!-- LeftMenu -->
+    <div ng-include="'@Url.Content("~/")app/dashboard/views/navbar/leftmenu.html'"></div>
+    
+    <!-- Main Content -->
+    <div ng-include="'@Url.Content("~/")app/dashboard/views/content.html'"></div>
+    
+    <!-- Footer -->
+    <div ng-include="'@Url.Content("~/")app/dashboard/views/navbar/footer.html'"></div>
+</div>

@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardOne", "DashboardOne\DashboardOne.csproj", "{3D27C674-771D-4E02-B47A-0FE3C5959ABD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditingUi", "EditingUi\EditingUi.csproj", "{19841A35-DD7B-48F9-AC25-30567DDD6ED3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3D27C674-771D-4E02-B47A-0FE3C5959ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D27C674-771D-4E02-B47A-0FE3C5959ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D27C674-771D-4E02-B47A-0FE3C5959ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19841A35-DD7B-48F9-AC25-30567DDD6ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19841A35-DD7B-48F9-AC25-30567DDD6ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19841A35-DD7B-48F9-AC25-30567DDD6ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19841A35-DD7B-48F9-AC25-30567DDD6ED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
